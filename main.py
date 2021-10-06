@@ -2,12 +2,12 @@
 def hasL(w): 
 
 
-    for i in range (0, lan(w)):
+    for i in range (0, len(w)):
         if "l" == w[i]:
             return True 
     return False
 
         
-
+print(hasL("dog"))
 
         
